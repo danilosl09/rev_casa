@@ -1,0 +1,20 @@
+{
+  "name": "revisao_prova_17-04-2023",
+  "version": "1.0.0",
+  "description": "Revisão para prova",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilosl09/rev_casa.git"
+  },
+  "author": "Danilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilosl09/rev_casa/issues"
+  },
+  "homepage": "https://github.com/danilosl09/rev_casa#readme"
+}
