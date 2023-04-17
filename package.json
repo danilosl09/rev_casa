@@ -5,7 +5,8 @@
   "main": "routes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "nodemon": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/danilosl09/rev_casa/issues"
   },
-  "homepage": "https://github.com/danilosl09/rev_casa#readme"
+  "homepage": "https://github.com/danilosl09/rev_casa#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
