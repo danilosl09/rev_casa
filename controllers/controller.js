@@ -31,7 +31,7 @@ controller.getPessoaById = (req,res)=>{
     item = lista.find(i => i.id == req.params.id)
   
     if(item){
-      res.status(200).send(item)
+      res.status(200).sendFile(path.resolve(__dirname+"/../views/lista.html"))
     } else{
       res.status(404).sendFile(path.resolve(__dirname+"/../views/notfound.html"))
     }
